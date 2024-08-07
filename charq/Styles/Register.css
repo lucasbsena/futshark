@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poiret+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Kalam:wght@300;400;700&family=Poiret+One&family=Protest+Riot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Kalam:wght@300;400;700&family=Poiret+One&family=Protest+Riot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syncopate:wght@400;700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fugaz+One&family=Kalam:wght@300;400;700&family=Poiret+One&family=Protest+Riot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syncopate:wght@400;700&family=Titan+One&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#23232e, #141488);
+    overflow: hidden;
+}
+
+.register{
+    margin-top: 100px;
+    width: 480px;
+    height: 480px;
+    background: linear-gradient(#23232e, #141488);
+    border-radius: 50px;
+    border: solid 2px rgb(255, 255, 255);
+
+  }
+
+  .registerHeader{
+    font-family: 'Poiret One';
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    letter-spacing: 3px;
+  }
+
+  .registerInput{
+    width: 50%;
+    height: 25%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .text{
+    width: 800px;
+    font-size: 30px ;
+    color: white;
+    text-align: center;
+    font-family: 'Poiret One';
+  
+  }
+  
+  
+  .botao{
+    cursor: pointer;
+      width: 400px;
+      height: 30px;
+      border: solid 1px #ffffff;
+      border-radius: 10px;
+      color: white;
+      background-color: #23232e;
+      font-family: 'Poiret One';
+      transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  
+  .botao:hover{
+      background-color: #040441;
+      color: white;
+      transform: scale(1.1)
+  }
+  
+   .button{
+      width: 80%;
+      height: 20%;
+      margin: 0 auto;
+      display: block;
+  
+  }
+    input{
+      color: white;
+      width: 100%;
+      background-color: #23232e;
+      border: #23232e;
+      border-radius: 5px;
+      font-family: 'Poiret One';
+      border: solid 1px rgb(255, 255, 255);
+    }
+  
+    .letra{
+      font-size: 24px;
+    }
+  
+    a {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-family: 'Poiret One';
+    }
+  
+    .logo{
+      position: absolute;
+      top: 0;
+      left: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      margin: 0px;
+      font-size: 26px;
+      font-family: 'Fugaz One';
+      letter-spacing: 4px;
+      text-transform: uppercase;
+     
+      
+      
+    }
+  
+    
+  
+   
+  
+    
