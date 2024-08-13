@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles/Homepage.css"> <script src=""></script> 
+    <link rel="stylesheet" href="Styles/Homepage.css"> <script src="Javascript/Homepage.js"></script> 
     <title>FutShark Sports</title>
 </head>
 <body>
@@ -11,6 +11,8 @@
 <header>
     <nav>
         <a class="logo" href="#"><img src="Imagens/logo1.png" width="45px" height="40px">FutShark Sports</a>
+
+        <input type="text" class="letra" placeholder="Buscar..." id="search">
         <ul class="navList">
             <li><a href="#">Home</a></li>
 
@@ -20,7 +22,7 @@
             
             <li><a href="#">Contato</a></li>
 
-            <li><a href="#"><img src="Imagens/carrinho2.png" width="25px"></a></li>
+            <li><a href="Carrinho.html"><img src="Imagens/carrinho2.png" width="25px"></a></li>
             
             <li><a href="Login.html">Sair</a></li>
         </ul>
@@ -33,13 +35,16 @@
         <div id="produtos">        
             <div id="centro"> 
             
-        <figure onclick="alert('Fui clicado')">
+        <figure onclick="addCart('Camisa Internacional I 23/24 s/n° Torcedor Adidas', 349.99)">
             
             <img src="Imagens/intersfundo.png" alt="Camisa Inter" style="width:200px; height:200px">   
             <figcaption>Camisa Internacional I 23/24 s/n° Torcedor Adidas
 
                 <h2>R$ 349,99</h2>
                 <h5>ou 5x de R$ 70,00</h5>
+                <br>
+                <h5>Clique na imagem para adicionar ao carrinho</h5>
+                
             </figcaption>
         </figure>
             </div>
@@ -51,11 +56,13 @@
 
         <div id="centro"> 
             
-        <figure onclick="alert('Fui clicado')">
+        <figure onclick="addCart('Chuteira Futsal Umbro Pro 5 Bump Polar Magma', 599.90)">
             <img src="Imagens/magmasfundo.png" alt="Chuteira Umbro Pro 5" style="width:200px; height:200px"> 
             <figcaption>Chuteira Futsal Umbro Pro 5 Bump Polar Magma
                 <h2>R$ 599,90</h2>
                 <h5>ou 10x de R$ 59,99 sem juros</h5>
+                <br>
+                <h5>Clique na imagem para adicionar ao carrinho</h5>
             </figcaption>
         </figure>
             </div>
@@ -66,13 +73,15 @@
         <div id="produtos">        
             <div id="centro"> 
             
-        <figure onclick="alert('Fui clicado')">
+        <figure onclick="addCart('Chuteira Copa Pure – adidas Football for Prada', 3.250)">
             <img src="Imagens/pradasfundo.png" alt="Chuteira da prada cara" style="width:200px; height:200px">   
             <figcaption>Chuteira Copa Pure – adidas Football for Prada
 
 
-                <h2>R$ 3.250,99</h2>
+                <h2>R$ 3.250</h2>
                 <h5>ou 12x de R$ 271,00</h5>
+                <br>
+                <h5>Clique na imagem para adicionar ao carrinho</h5>
             </figcaption>
         </figure>
             </div>
@@ -83,13 +92,15 @@
         <div id="produtos">        
             <div id="centro"> 
             
-        <figure onclick="alert('Fui clicado')"> 
+        <figure onclick="addCart('Calção Adidas Squadra 21 Masculino - Preto+Branco', 154.17)"> 
             <img src="Imagens/calcaosfundo.png" alt="Calçao de futebol" style="width:200px; height:200px">   
             <figcaption>Calção Adidas Squadra 21 Masculino - Preto+Branco
 
 
                 <h2>R$ 154,17</h2>
                 <h5>ou 2x de R$ 77,09</h5>
+                <br>
+                <h5>Clique na imagem para adicionar ao carrinho</h5>
             </figcaption>
         </figure>
             </div>
@@ -100,13 +111,15 @@
         <div id="produtos">        
             <div id="centro"> 
             
-        <figure onclick="alert('Fui clicado')">
+        <figure onclick="addCart('Luva Campo Goleiro Umbro Pro Keeper - Preto+Branco', 400.00)">
             <img src="Imagens/luvagoleirosfundo.png" alt="Luva de goleiro Umbro " style="width:200px; height:200px">   
             <figcaption>Luva Campo Goleiro Umbro Pro Keeper - Preto+Branco
 
 
                 <h2>R$ 400,00</h2>
                 <h5>ou 10x de R$ 40,00</h5>
+                <br>
+                <h5>Clique na imagem para adicionar ao carrinho</h5>
             </figcaption>
         </figure>
             </div>
@@ -117,38 +130,42 @@
         <div id="produtos">        
             <div id="centro"> 
             
-        <figure onclick="alert('Fui clicado')">
+        <figure onclick="addCart('Bola Adidas World Cup TelsTar 18 OMB KO', 979.98)">
             <img src="Imagens/bolasfundo.png" alt="Bola de futebol da adidas da copa do mundo de 2018 " style="width:200px; height:200px">   
             <figcaption>Bola Adidas World Cup TelsTar 18 OMB KO
 
 
                 <h2>R$ 979,98</h2>
                 <h5>ou 10x de R$ 98,07</h5>
+                <br>
+                <h5>Clique na imagem para adicionar ao carrinho</h5>
             </figcaption>
         </figure>
             </div>
         </div>
     </div>
 
-
+<div id="secondline">
     <div class="mover">
         <div id="produtos">        
             <div id="centro"> 
                 <div class="seglinha">
-        <figure onclick="alert('Fui clicado')">
+        <figure onclick="addCart('Meia ProSocks Ultragrip Preta', 89.99)">
             <img src="Imagens/prosocks.png" alt="Meia antiderrapante da marca Prosocks " style="width:200px; height:200px">   
             <figcaption>Meia ProSocks Ultragrip Preta
 
 
                 <h2>R$ 89,90</h2>
                 <h5>ou 10x de R$ 8,99</h5>
+                <br>
+                <h5>Clique na imagem para adicionar ao carrinho</h5>
             </figcaption>
         </figure>
             </div>
         </div>
     </div>
 </div>
-    
+</div> 
 
 
 </body>

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Kalam:wght@300;400;700&family=Poiret+One&family=Protest+Riot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syncopate:wght@400;700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fugaz+One&family=Kalam:wght@300;400;700&family=Poiret+One&family=Protest+Riot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syncopate:wght@400;700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Fira+Mono:wght@400;500;700&family=Fugaz+One&family=Kalam:wght@300;400;700&family=Poiret+One&family=Protest+Riot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syncopate:wght@400;700&family=Titan+One&display=swap');
+body{
+    background: linear-gradient(#141488, #23232e);
+    height: 100vh;
+}
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    li{
+
+        list-style-type: none;
+        margin: 10px;
+    }
+
+    ul{
+    
+    width: 600px;
+  font-size: 25px ;
+  color: white;
+  text-align: center;
+  font-family: 'Fugaz One';
+  
+
+    }
+
+    h2{
+
+    font-family: 'Poiret One';
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    letter-spacing: 3px;
+    }
+    
+    #cart-total{
+
+    font-family: 'Poiret One';
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+
+    }
+
+    #cart-items{
+
+        width: 500px;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    #cart{
+        margin-left: 640px;
+        margin-top: 60px;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        
+        
+
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        opacity: 0.5;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-family: 'Fugaz One';
+        
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Antic';
+        background: #111185;
+        height: 80px;
+        border: solid 1px #000000;
+    }
+
+    main {
+        background-color: #fff;
+    
+    }
+
+    .navList {
+        list-style: none;
+        display: flex;
+        margin-right: 50px;
+    }       
+
+    .navList li {
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-left: 32px;
+    }
+
+    
+
+    
+
+    
